@@ -7,7 +7,7 @@
 	},
 	{
 		"nom" : "TRIBAN",
-		"description" : "VELO ROUTE HOMME CYCLOTOURISME RC100 GRIS",
+		"description" : "VÉLO ROUTE HOMME CYCLOTOURISME RC100 GRIS",
 		"prix" : 300.00,
 		"image" : "images/triban.jpg"
 	},
@@ -19,15 +19,15 @@
 	},
 	{
 		"nom" : "BTWIN",
-		"description" : "VELO 16 POUCES 4-6 ANS 500 DOCTOGIRL",
+		"description" : "VÉLO 16 POUCES 4-6 ANS 500 DOCTOGIRL",
 		"prix" : 150.00,
 		"image" : "images/btwin.jpg"
 	},
 	{
 		"nom" : "ELOPS",
-		"description" : "VELO DE VILLE ELOPS 520 CADRE BAS BLEU",
+		"description" : "VÉLO DE VILLE ELOPS 520 CADRE BAS BLEU",
 		"prix" : 349.00,
-		"image" : "images/rockrider.jpg"
+		"image" : "images/elops.jpg"
 	},
 	{
 		"nom" : "UBRANBIKER",
