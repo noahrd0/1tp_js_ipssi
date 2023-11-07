@@ -1,0 +1,19 @@
+/* Couleur du logo */
+/* Le jaune/orange : #FAA86D 
+Le Bordeaux : #8C0300
+Le orange : #C94333
+*/
+a {
+    color: black;
+}
+.btn-orange {
+    color: #fff;
+    background-color: #FAA86D;
+    border-color: #FAA86D;
+}
+.btn-orange:hover {
+    background-color: #FAA86D;
+}
+.brightness {
+    filter: brightness(0.5);
+}
