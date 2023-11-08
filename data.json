@@ -3,13 +3,17 @@
 		"nom" : "ROCKRIDER",
 		"description" : "VÉLO VTT RANDONNEE ST 120 NOIR BLEU 27,5\"",
 		"prix" : 339.99,
-		"image" : "images/rockrider.jpg"
+		"image" : "images/rockrider.jpg",
+		"reference" : "8554730",
+		"info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl.",
+		"couleur" : "bleu et noir"
 	},
 	{
 		"nom" : "TRIBAN",
 		"description" : "VÉLO ROUTE HOMME CYCLOTOURISME RC100 GRIS",
 		"prix" : 300.00,
 		"image" : "images/triban.jpg"
+		
 	},
 	{
 		"nom" : "RIVERSIDE",
