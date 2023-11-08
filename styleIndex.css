@@ -3,17 +3,28 @@
 Le Bordeaux : #8C0300
 Le orange : #C94333
 */
-a {
-    color: black;
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+.row a:hover::after {
+	content: "\f05a";
+	position: absolute;
+	font-size: 2em;
+	top: 10px;
+	left: 10px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: #FAA86D;
 }
+
 .btn-orange {
-    color: #fff;
-    background-color: #FAA86D;
-    border-color: #FAA86D;
+	color: #fff;
+	background-color: #FAA86D;
+	border-color: #FAA86D;
 }
 .btn-orange:hover {
-    background-color: #FAA86D;
+	background-color: #FAA86D;
 }
 .brightness {
-    filter: brightness(0.5);
+	filter: brightness(0.5);
 }
+

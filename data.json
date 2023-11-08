@@ -12,31 +12,45 @@
 		"nom" : "TRIBAN",
 		"description" : "VÉLO ROUTE HOMME CYCLOTOURISME RC100 GRIS",
 		"prix" : 300.00,
-		"image" : "images/triban.jpg"
-		
+		"image" : "images/triban.jpg",
+		"reference" : "8794730",
+		"info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl.",
+		"couleur" : "blanc"
 	},
 	{
 		"nom" : "RIVERSIDE",
 		"description" : "VÉLO TOUT CHEMIN BALADE ELECTRIQUE ORIGINAL 920 E",
 		"prix" : 899.99,
-		"image" : "images/riverside.jpg"
+		"image" : "images/riverside.jpg",
+		"reference" : "9287309",
+		"info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl.",
+		"couleur" : "gris"
 	},
 	{
 		"nom" : "BTWIN",
 		"description" : "VÉLO 16 POUCES 4-6 ANS 500 DOCTOGIRL",
 		"prix" : 150.00,
-		"image" : "images/btwin.jpg"
+		"image" : "images/btwin.jpg",
+		"reference" : "8709876",
+		"info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl.",
+		"couleur" : "rose et blanc"
 	},
 	{
 		"nom" : "ELOPS",
 		"description" : "VÉLO DE VILLE ELOPS 520 CADRE BAS BLEU",
 		"prix" : 349.00,
-		"image" : "images/elops.jpg"
+		"image" : "images/elops.jpg",
+		"reference" : "8797777",
+		"info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl.",
+		"couleur" : "noir et marron"
 	},
 	{
-		"nom" : "UBRANBIKER",
+		"nom" : "URBANBIKER",
 		"description" : "VÉLO PLIANT ÉLECTRIQUE MINI T NOIR 20\"",
 		"prix" : 1295.00,
-		"image" : "images/urbanbiker.jpg"
+		"image" : "images/urbanbiker.jpg",
+		"reference" : "8794888",
+		"info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nisl vitae nisl.",
+		"couleur" : "noir et bleu"
 	}
 ]
