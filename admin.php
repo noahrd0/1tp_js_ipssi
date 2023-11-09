@@ -87,7 +87,7 @@ include_once("navbar.php");
 				<input type="text" name="email" placeholder="email">
 				<input type="text" name="prenom" placeholder="prenom">
 				<input type="text" name="nom" placeholder="nom">
-				<input type="text" name="password" placeholder="password no hash">
+				<input type="text" name="password" placeholder="password">
 				<select name="admin">
 					<option value="0">Non</option>
 					<option value="1">Oui</option>
