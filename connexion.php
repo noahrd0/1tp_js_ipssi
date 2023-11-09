@@ -1,6 +1,7 @@
 <?php
 include_once("navbar.php");
 ?>
+
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -19,15 +20,15 @@ include_once("navbar.php");
                 </form>
             </div>
             <div class="col-6">
-                <form>
+                <form action="accesInscription.php" method="post">
                     <h1>Inscription</h1>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Entrez votre prénom</label>
-                        <input type="password" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
+                        <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Entrez votre Nom</label>
-                        <input type="password" class="form-control" id="nom" name="nom" placeholder="Nom">
+                        <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Votre adresse mail</label>

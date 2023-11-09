@@ -2,15 +2,14 @@ let DarkLight = document.getElementById("DarkLight");
 
 DarkLight.addEventListener("click", (e) => {
 
-    if (document.body.style.backgroundColor == 'black') {
+    if (document.body.classList.contains('dark-mode')) {
         // Si le fond est noir, le changer en blanc
         document.body.classList.remove("dark-mode");
-
         localStorage.setItem('Lumière', "Blanc");
 
       } else {
         // Si le fond est blanc, le changer en noir
-        document.body.classList.toggle("dark-mode");
+        document.body.classList.add("dark-mode");
         localStorage.setItem('Lumière', "Noir");
       }
 })
