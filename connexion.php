@@ -19,35 +19,43 @@ include_once("navbar.php");
                     <button type="submit" class="btn btn-orange">Connexion</button>
                 </form>
                 <?php
-    $connexion = new mysqli("localhost", "root", "", "velo");
-    if ($connexion->connect_error) {
-        die("Connection failed: " . $connexion->connect_error);
-    }
-                // Le formulaire a été soumis, continuer le traitement ici
-                if (isset($_POST["email"]) && isset($_POST["mdp"])) {
-                    $loginEmail = $_POST["email"];
-                    $loginPassword = $_POST["mdp"];
-                    if (!empty($loginEmail) && !empty($loginPassword)) {
-                        $requete = "SELECT * FROM `user` WHERE `email` = '$loginEmail' AND `password` = '$loginPassword'";
-                        $resultat = $connexion->query($requete);
-                        $user = $resultat->fetch_assoc();
-                        if ($user) {
-                            echo "Bienvenue " . $user["email"];
-
-                            if (session_status() == PHP_SESSION_NONE) {
-                                session_start();
-                            }
-                            header('location: ./connexion.php');
-                            $_SESSION["newsession"]=$user["email"];
+                    if(isset($_POST["mdp"]) &&  isset($_POST["mdp"])) {
+                        $connexion = new mysqli("localhost", "root", "", "velo");
+                        if ($connexion->connect_error) {
+                            die("Connection failed: " . $connexion->connect_error);
                         } else {
-                            echo "Mauvais identifiants";
+                            echo "Connexion réussie";
+                        }        
+
+                        if (!empty($_POST["email"]) && !empty($_POST["mdp"])) {
+                            echo "Le formulaire a été soumis";
+                            $loginEmail = $_POST["email"];
+                            $loginPassword = $_POST["mdp"];
+                            $requeteHash = "SELECT `password` FROM `user` WHERE `email` = '$loginEmail'";
+                            $resultatHash = $connexion->query($requeteHash);
+                            $hash = $resultatHash->fetch_assoc();
+                            echo $hash["password"];
+                            echo "<br>";
+                            echo $loginPassword;
+                            if (password_verify($loginPassword, $hash["password"]) == true) {
+                                echo "Bienvenue";
+
+                                if (session_status() == PHP_SESSION_NONE) {
+                                    session_start();
+                                }
+                                header('location: ./connexion.php');
+                                $_SESSION["newsession"]=$loginEmail;
+                            } else {
+                                echo "Mot de passe incorrect";
+                            }
+                        } else {
+                            echo "Le formulaire n'a pas été soumis";
                         }
                     }
-                }
         ?>
             </div>
             <div class="col-6">
-                <form>
+                <form action="accesInscription.php" method="post">
                     <h1>Inscription</h1>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Entrez votre prénom</label>
