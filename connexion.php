@@ -54,7 +54,7 @@ include_once("navbar.php");
                     }
         ?>
             </div>
-            <div class="col-6">
+            <div class="col-4">
                 <form action="accesInscription.php" method="post">
                     <h1>Inscription</h1>
                     <div class="form-group">
