@@ -1,7 +1,7 @@
 <?php
 include_once("navbar.php");
 ?>
-		<div class="container">
+		<div class="container infoProduit">
 			<?php
 				// Récupération des informations pour l'affichage detaille
 				$ref = $_GET['ref'];
