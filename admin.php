@@ -66,7 +66,6 @@ include_once("navbar.php");
 					<option value="1">Oui</option>
 				</select>
 				<button type="submit" class="btn btn-primary" id="btn-save">Save</button>
-				<button type="submit" class="btn btn-danger" id="btn-delete">Delete</button>
 			`;
 			newForm.innerHTML = content;
 			newCell.appendChild(newForm);
