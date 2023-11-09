@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styleIndex.css" rel="stylesheet">
-		<link href="style/informations.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <title>Bycycle</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/logo-PhotoRoom.png-PhotoRoom.png" alt="" width="75" height="75"></a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                <a class="nav-link" href="index.html">Accueil</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="produit.html">Produit</a>
-                </li>
-            </ul>
-            </div>
-        </nav>
+<?php
+include_once("navbar.php");
+?>
 		<div class="container">
 			<?php
 				// Récupération des informations pour l'affichage detaille
