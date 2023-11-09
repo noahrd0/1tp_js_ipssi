@@ -36,6 +36,8 @@
         </li>
         <li class="nav-item">
                             <a class="nav-link" href=connexion.php> <?php
+                                // verification pour eviter d'afficher le message d'erreur php
+                                
                                 if (isset($_SESSION["newsession"])) {
                                     echo "Connecté ( " . $_SESSION["newsession"] . " )";
                                 } else {
@@ -50,6 +52,7 @@
                             if ($connexion->connect_error) {
                                 die("Connection failed: " . $connexion->connect_error);
                             }
+                            
                             $userEmail = $_SESSION["newsession"];
                             // $requeteIsAdmin = $connexion->prepare($connexion, "SELECT * FROM `user` WHERE `email` = ?");
                             // $requeteIsAdmin->bind_param("s", $userEmail);

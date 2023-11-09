@@ -15,7 +15,7 @@ include_once("navbar.php");
                     <div class="carousel-caption text-start">
                       <h1>Example headline.</h1>
                       <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                      <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                      <p><a class="btn btn-lg btn-primary btn-orange" href="connexion.php">S'inscrire</a></p>
                     </div>
                   </div>
                 </div>
@@ -25,7 +25,7 @@ include_once("navbar.php");
                     <div class="carousel-caption">
                       <h1>Another example headline.</h1>
                       <p>Some representative placeholder content for the second slide of the carousel.</p>
-                      <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                      <p><a class="btn btn-lg btn-primary btn-orange" href="#presentation">En savoir plus</a></p>
                     </div>
                   </div>
                 </div>
@@ -35,7 +35,7 @@ include_once("navbar.php");
                     <div class="carousel-caption text-end">
                       <h1>One more for good measure.</h1>
                       <p>Some representative placeholder content for the third slide of this carousel.</p>
-                      <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                      <p><a class="btn btn-lg btn-primary btn-orange" href="produit.php">Voir produits</a></p>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ include_once("navbar.php");
               </button>
             </div>
               <!-- Présentation de l'entreprise -->
-              <div class="container col-xxl-8 px-4 py-5">
+              <div class="container col-xxl-8 px-4 py-5" id="presentation">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                   <div class="col-10 col-sm-8 col-lg-6">
                     <img src="./images/rockrider.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
@@ -61,7 +61,7 @@ include_once("navbar.php");
                       de vie qui incarne la santé, la liberté et l'aventure. C'est pourquoi nous proposons une vaste gamme de vélos pour répondre aux besoins variés de notre clientèle, 
                       que vous soyez un cycliste débutant cherchant votre premier vélo ou un professionnel exigeant la performance ultime.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <a href="produit.html"><button type="button" class="btn btn-orange btn-lg px-4 me-md-2">Nos produits</button></a>
+                      <a href="produit.php"><button type="button" class="btn btn-orange btn-lg px-4 me-md-2">Nos produits</button></a>
                       <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
                     </div>
                   </div>
