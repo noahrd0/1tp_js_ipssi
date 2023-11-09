@@ -20,7 +20,7 @@ include_once("navbar.php");
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="/images/BMC-Roadmachine-AMP-@-Jeremie-Reuiller-2227-scaled.jpg" class="img-fluid brightness" alt="">
+                  <img src="./images/BMC-Roadmachine-AMP-@-Jeremie-Reuiller-2227-scaled.jpg" class="img-fluid brightness" alt="">
                   <div class="container">
                     <div class="carousel-caption">
                       <h1>Another example headline.</h1>
@@ -30,7 +30,7 @@ include_once("navbar.php");
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="/images/BMC-Roadmachine-AMP-@-Jeremie-Reuiller-2227-scaled.jpg" class="img-fluid brightness" alt="">
+                  <img src="./images/BMC-Roadmachine-AMP-@-Jeremie-Reuiller-2227-scaled.jpg" class="img-fluid brightness" alt="">
                   <div class="container">
                     <div class="carousel-caption text-end">
                       <h1>One more for good measure.</h1>
@@ -53,7 +53,7 @@ include_once("navbar.php");
               <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                   <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="/images/rockrider.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    <img src="./images/rockrider.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                   </div>
                   <div class="col-lg-6">
                     <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Présentation de Bicycle</h1>
