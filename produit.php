@@ -1,6 +1,7 @@
 <?php
 include_once("navbar.php");
 ?>
+<link rel="stylesheet" href="./styleIndex.css">
 <div class="search-container">
 	<input type="text" id="search-bar" placeholder="Rechercher un produit...">
 	<select name="tri" id="tri">
