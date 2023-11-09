@@ -17,6 +17,10 @@
 			echo "Connexion réussie";
 		}
 
+        // Hash du mot de passe
+
+        $password = password_hash("$password", PASSWORD_BCRYPT);
+
         // Ajouter un nouvel utilisateur dans la base de données
         $sql = "INSERT INTO user (email, prenom, nom, password, admin) VALUES ('$email', '$prenom', '$nom', '$password', '$admin')";
         if ($connexion->query($sql) === TRUE) {
